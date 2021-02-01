@@ -1,10 +1,7 @@
 #1
-FROM registry.redhat.io/rhel7/rhel
+FROM registry.redhat.io/jboss-webserver-5/webserver54-openjdk11-tomcat9-openshift-rhel7
 
 
-RUN yum install -y java-11-openjdk &&  yum install -y java-11-openjdk-devel && yum clean all
-
-# Set environment variables.
 ENV HOME /root
 
 # Get the JAR file 
