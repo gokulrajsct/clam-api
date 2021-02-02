@@ -16,5 +16,5 @@ WORKDIR /var/clamav-rest/
 EXPOSE 8080
 
 ADD bootstrap.sh /
-RUN chmod +x bootstrap.sh
+RUN chmod +x /bootstrap.sh
 ENTRYPOINT ["/bootstrap.sh"]
