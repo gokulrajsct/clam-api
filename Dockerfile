@@ -6,7 +6,7 @@ ENV HOME /root
 
 # Get the JAR file 
 #RUN mkdir /var/clamav-rest
-COPY --from=0 /target/clamav-rest-1.0.2.jar /var/clamav-rest/clamav-rest-1.0.2.jar
+COPY /target/clamav-rest-1.0.2.jar /var/clamav-rest/clamav-rest-1.0.2.jar
 #COPY target/clamav-1.0.2.jar /var/clamav-rest/
 
 # Define working directory.
