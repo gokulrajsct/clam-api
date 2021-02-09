@@ -32,7 +32,7 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(Application.class);
 		Map<String, Object> defaults = new HashMap<String, Object>();
-		defaults.put("clamd.host", "localhost");
+		defaults.put("clamd.host", "0.0.0.0");
 		defaults.put("clamd.port", 3310);
 		defaults.put("clamd.timeout", 500);
 		defaults.put("clamd.maxfilesize", "20000KB");
