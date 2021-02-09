@@ -1,7 +1,7 @@
 #!/bin/bash
 set -m
 
-host=${CLAMD_HOST:-10.30.247.244}
+host=${CLAMD_HOST:-10.30.94.211}
 port=${CLAMD_PORT:-3310}
 filesize=${MAXSIZE:-10240MB}
 timeout=${TIMEOUT:-10000}
